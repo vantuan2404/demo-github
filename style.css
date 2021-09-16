@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: transparent;
+    background-image: -webkit-gradient(linear, left top, right top, from(orange), to(blue));
+    background-image: linear-gradient(to right, orange, blue);
+    -webkit-background-clip: text;
+}
